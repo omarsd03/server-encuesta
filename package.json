@@ -1,0 +1,23 @@
+{
+  "name": "mean-encuesta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "instascan": "^1.0.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
